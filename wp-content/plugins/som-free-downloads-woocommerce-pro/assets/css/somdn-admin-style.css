@@ -1,0 +1,80 @@
+.font-15 {
+	font-size: 15px;
+}
+th.column-somdn_free_downloads {
+	position: relative;
+	width: 55px;
+}
+
+th.column-somdn_free_downloads span {
+	position: relative;
+}
+
+@media (min-width: 783px) {
+	th.column-somdn_free_downloads span {
+		text-indent: -9999px;
+	}
+	th.column-somdn_free_downloads span:before {
+		text-indent: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
+#somdn-show-reset,
+#somdn-reset-dl-count-checkbox-label,
+#somdn-show-reset-button-cancel { display: none; }
+
+#somdn-show-reset:checked ~ #somdn-reset-dl-count-checkbox-label,
+#somdn-show-reset:checked ~ #somdn-show-reset-button-cancel{ display: inline-block; }
+#somdn-show-reset:checked ~ #somdn-show-reset-button { display: none; }
+
+#somdn_tracked_total_column { width: 10%; text-align: center; }
+#somdn_tracked_date_column { width: 14%; }
+.somdn_tracked_total_column.column-somdn_tracked_total_column { text-align: center; }
+
+.widefat small.meta {
+	display: block;
+	color: #999;
+	font-size: inherit;
+	margin: 3px 0;
+}
+.somdn_invalid_select { color: grey!important; }
+.somdn_download_counts_output_text td {
+	padding-top: 0!important
+}
+.somdn-woo-meta-span {
+	width: 100%;
+	display: block;
+	padding-bottom: 10px;
+}
+.wc-memberships#wc-memberships-membership-plan-data ul.wc-tabs li.somdn_free_downloads_tab a:before, .wc-memberships#wc-memberships-product-memberships-data ul.wc-tabs li.somdn_free_downloads_tab a:before {
+	content: "\f316";
+}
+#membership-plan-data-somdn-free-downloads.woocommerce_options_panel .options_group fieldset label {
+	float: left;
+	width: 150px;
+	padding: 0;
+	margin: 0 0 0 -150px;
+}
+@media only screen and (max-width: 500px) {
+	#membership-plan-data-somdn-free-downloads.woocommerce_options_panel .options_group fieldset label {
+		float: none;
+		width: auto;
+		display: block;
+		margin: 0;
+	}
+}
+#membership-plan-data-somdn-free-downloads.woocommerce_options_panel .wp-editor-wrap {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 10px;
+}
+#membership-plan-data-somdn-free-downloads.woocommerce_options_panel .description {
+	margin-left: 0;
+}
+.som-settings-pro-basic-limit-error-wrap {
+	max-width: 700px;
+	width: 100%;
+}

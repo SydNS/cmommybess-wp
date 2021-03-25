@@ -1,0 +1,200 @@
+.somdn-download-error p:last-child {
+	margin-bottom: 0!important;
+}
+.somdn-download-wrap-variable {
+	display: none;
+}
+.somdn-download-wrap-variable .somdn-download-wrap {
+	padding-bottom: 0;
+}
+.somdn-download-count-wrap.below {
+	padding-top: 10px;
+}
+.somdn-download-count {
+	margin: 0;
+	padding-bottom: 10px;
+	font-size: 90%;
+}
+.somdn-capture-email-wrap {
+	position: fixed;
+	top: 0; right: 0; bottom: 0; left: 0;
+	z-index: 9999999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	display: none;
+}
+.somdn-capture-email-wrap.open {
+	display: block;
+	display: flex;
+	overflow-y: scroll;
+}
+.somdn-capture-email-wrap-bg {
+	position: fixed;
+	top: 0; right: 0; bottom: 0; left: 0;
+	background-color: #000;
+	opacity: 0.8;
+	z-index: 1;
+}
+.somdn-capture-email-wrap-form-wrap {
+	width: 640px;
+	max-width: 100%;
+	margin: auto;
+	/*display: table-cell;
+	vertical-align: middle;
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;*/
+}
+.somdn-capture-email-wrap-form {
+	position: relative;
+	z-index: 10;
+	border-radius: 4px;
+	overflow: hidden;
+	width: 640px;
+	max-width: 100%;
+	background-color: #2679ce;
+	margin-bottom: 20px;
+}
+.somdn-capture-email-header {
+	text-align: center;
+	padding: 20px 40px;
+	position: relative;
+}
+.somdn-capture-email-header h3 {
+	margin: 0!important;
+	padding: 0!important;
+	color: #fff!important;
+	font-weight: 600!important;
+	font-size: 24px!important;
+	line-height: 1!important;
+}
+.somdn-capture-email-header .dashicons-no {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	font-size: 26px;
+	color: #fff;
+	cursor: pointer;
+}
+.somdn-capture-email-header .dashicons-no:hover {
+	color: #ddd;
+}
+.somdn-capture-email-body {
+	background-color: #fff;
+	padding: 35px 20px;
+}
+.somdn-capture-email-left {
+	padding-bottom: 25px;
+}
+@media ( min-width: 768px ) {
+	.somdn-capture-email-body {
+		display: table;
+		table-layout: fixed;
+		width: 100%;
+		padding: 10px 0;
+	}
+	.somdn-capture-email-body:after {
+		display: table;
+		clear: both;
+		content: '';
+	}
+	.somdn-capture-email-left,
+	.somdn-capture-email-right {
+		display: table-cell;
+		padding: 30px 20px;
+	}
+	.somdn-capture-email-left {
+		width: 40%;
+		text-align: center;
+		vertical-align: top;
+	}
+	.somdn-capture-email-right {
+		vertical-align: middle;
+		width: 50%;
+	}	
+}
+.somdn-capture-email-image {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	width: 200px;
+	height: auto;
+	max-width: 100%;
+}
+body.somdn-capture-email-open {
+	max-height: 100vh!important;
+	overflow-y: hidden!important;
+}
+.somdn-download-user-email,
+.somdn-download-user-name {
+	width: 100%;
+	display: block;
+	margin-bottom: 0;
+}
+.somdn-capture-name-input-wrap {
+	padding-bottom: 20px;
+}
+.somdn-capture-checkbox-wrap {
+	padding-top: 20px;
+	padding-bottom: 0;
+	text-align: left;
+}
+.somdn-capture-checkbox-wrap label {
+	cursor: pointer;
+}
+.somdn-capture-checkbox-wrap input[type="checkbox"] {
+	margin-right: 5px;
+}
+.somdn-capture-email-button-wrap {
+	text-align: center;
+	padding-top: 25px;
+}
+.somdn-capture-email-button-wrap button {
+	width: 100%;
+}
+.somdn-capture-email-text-wrap {
+	padding-bottom: 20px;
+	text-align: left;
+	font-weight: 400;
+}
+.somdn-capture-email-text-wrap p {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+@media ( max-width: 767px ) {
+	.somdn-capture-email-wrap.open {
+		overflow-y: scroll;
+	}
+}
+.somdn-account-downloads-table .somdn-download-file {
+	width: 250px;
+}
+.somdn-account-downloads-section {
+	padding: 25px 0 20px 0;
+}
+.somdn-account-downloads-message {
+	padding-bottom: 20px;
+}
+.somdn-wcplpro-wrap .somdn-shortcode-wrap .somdn-download-wrap,
+.somdn-grouped-table .somdn-download-wrap {
+	padding-bottom: 0;
+}
+.somdn-grouped-table td {
+	vertical-align: middle;
+}
+.somdn-account-download-limits-wrap div {
+	padding-bottom: 10px;
+}
+
+/* Quick View */
+body.somdn-qview-open.somdn-capture-email-open .somdn-qview-window {
+	overflow: visible;
+}
+body.somdn-qview-open.somdn-capture-email-open .somdn-qview-wrap-bg {
+	display: none;
+}
+.somdn-redirect-form-link {
+	font-weight: bold;
+}

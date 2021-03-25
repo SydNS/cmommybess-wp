@@ -1,0 +1,205 @@
+Free Downloads WooCommerce Pro
+
+Changelog
+
+** 3.2.1 - 18th September 2020 **
+[Change] Adjusted type checking on download limits.
+
+** 3.2.0 - 18th September 2020 **
+[New] Minimum required PHP version has been increased to 7.0
+[New Feature] (Pro Edition) Download limits can now be set for different user roles as well as for specific user accounts, including the ability to exclude a user role or specific user from any download limits. See the Download Limits settings page for more details.
+[New] Tested with WordPress 5.5.1
+[New] Tested with WooCommerce 4.4.1
+
+** 3.1.93 - 17th July 2020 **
+[Fix] (Pro Edition) Corrected download limit bug with certain time zones.
+
+** 3.1.92 - 8th July 2020 **
+
+[Fix] Changed CSS styling for settings page dashicon buttons to correct vertical alignment.
+[Change] Multiple checkbox download form no longer zips single selected files.
+[Change] Removed `delete_option()` call when updating the plugin as it appeared to cause issues with transients.
+[Change] (Pro Edition) Changed the `free-downloads.php` account template file to not display the download table if no download history found. Custom templates will need to be updated.
+[Change] (Pro Edition) The free downloads account table column name has been changed from "File" to "Download".
+[Change] Update procedure logic has been improved.
+[Change] Stats page can now be customised with filters to hide different parts if required.
+
+** 3.1.91 - 14th April 2020 **
+
+[New] (Pro Edition) Added 3 new filters/actions: somdn_count_download_notify_email_addresses, somdn_download_type_pre_send_email, somdn_download_type_post_send_email
+
+** 3.1.9 - 13th April 2020 **
+
+[Fix] (Pro Edition) Fixed bug that prevented redirect or email downloads working for multiple file link download forms
+[Fix] Removed ``somdn-download-single-form`` ID tag from download forms to prevent DOM element errors in browser. Custom templates will need to be updated
+[New] (Pro Edition) Which files a user downloaded are now included in the free download log as well as the exported Excel files
+[New] (Pro Edition) Added an additional parameter to the ``somdn_count_download_post_success`` action, $post_information
+[New] (Pro Edition) Customise how long (in seconds) the redirect download page will automatically initiate the download
+[New Feature] (Pro Edition) For site admins, set up email notifications to specific email address when new free downloads are completed
+[New] Tested with WordPress 5.4
+[New] Tested with WooCommerce 3.8.1
+
+** 3.1.8 - 13th January 2020 **
+
+[Fix] (Pro Edition) Download limits not tracking correctly in some time zones
+[Fix] (Pro Edition) Fixed activation error that occurs if the free version is still active
+[New] (Pro Edition) Variations now show up for download in the user's download history account page
+[New] (Pro Edition) Added option to hide the purchased downloads section of the download history account page, when the "Show free download history on user account page" setting is enabled
+[New Feature] (Pro Edition) Added new shortcode [download_limits] to display the current user's download limits (if applicable)
+[New] Tested with WordPress 5.3.2
+[New] Tested with WooCommerce 4.0.1
+
+** 3.1.7 - 5th June 2019 **
+
+[New] Added option to disable download security key checking in the General Settings / Files section
+[Change] (Pro Edition) Plugin textdomain in strings changed from constant to a string to conform to i18n
+[Change] Removed strict check when using base64_decode() to improve compatibility
+[Change] Started work on converting plugin to OOP
+[Fix] (Pro Edition) Fixed weekly download limit checks when the day of the week is set to anything other than Monday
+[Fix] (Pro Edition) Fixed download limit reached error messages not showing the correct period/frequency
+
+** 3.1.5 - 24th March 2019 **
+
+[New Feature] Full integrated support for WooCommerce Quickview by IconicWP
+[New Feature] External files are now downloaded to the server temporarily, meaning they can be zipped when using certain multiple files display methods
+[New Feature] (Pro Edition) New download delivery methods. Option to serve your downloads after redirecting to a page or emailing a link
+[New Feature] (Pro Edition) New display type for email capture form checkbox: Required Checkbox with Text. Form cannot be submitted until box is checked. Error message can be customised
+[New] Added a new error logging system to catch some errors and important info, viewable in the Settings -> Support -> Error Logs section. Can be copied, exported, or deleted from the settings page. Debug Logs can also be enabled for info
+[New] Plugin now includes functions to update the site database or plugin files where necessary, when updating to new versions of this plugin
+[New] Checkbox form error when no boxes have been selected for download can now be customised. Default is still "Please select at least 1 checkbox". As such both checkbox form templates have been updated
+[New] Plugin now checks for dependencies and displays a notice in WordPress admin if any are missing
+[New] Updated POT file with new strings (new translations will be required)
+[New] Added the ability for users to add their own translations if they put them in 'wp-content/languages/free-downloads/'. These will take priority over any others
+[New] (Pro Edition) Pro Edition now includes the following localisations: British English (default), US English, Spanish and Colombian Spanish (thanks to Carlos M)
+[Fix] Fixed invalid legacy somdn_is_product_valid() function calls
+[Fix] Cleaned up erroneous or bad translatable strings
+[Fix] Corrected error that meant WordPress hosted localisations would not load in the free version
+[Fix] (Pro Edition) Fixed incorrect download checks on account page
+[Fix] (Pro Edition) MailChimp subscription error catching improved to give more detail
+[Fix] (Pro Edition) Fixed error in variation download form template for showing (Multiple Files) "Button + Filenames"
+[Change] Frontend free download checks are now only performed once per page load, making use of global variables to store data temporarily. This should improve performance on large sites
+[Change] "target" link tag now supported in custom text areas that allow links
+[Change] Plugin temporary uploads folder structure changed, as well as added empty index.php files to these directories to improve security
+[Change] Stored get_template_directory() value when building plugin templates to prevent duplicate unnecessary calls
+[Change] (Pro Edition) Version number parity between free version and Pro Edition
+[Change] (Pro Edition) Added wp_nonce check for log exporting as well as changed init action
+[Change] (Pro Edition) EDD_SL_Plugin_Updater class updated to 1.6.18
+[Change] (Pro Edition) Changes made to email capture form template. Strings adjusted, "checked" values added to inputs where needed, and incorporated new display options
+[Change] (Pro Edition) Converted default download limit messages to translatable strings
+
+** 1.1.12 - 19th November 2018 **
+Change: Action for outputting download button on product pages reverted to previous setting "woocommerce_single_product_summary". This can now also be filtered and changed manually. Filter for the action is "somdn_product_page_content_woo", priority is "somdn_product_page_content_woo_priority". See "somdn-woo-functions.php" function somdn_load_product_page_content_woo().
+Change: somdn_product_page() function now accepts an array of arguments instead of having them all as function parameters. Defaults included in the function and merged with the received $args array.
+
+** 1.1.11 - 17th November 2018 **
+New Feature: Download stats and reports (beta). A new Stats tab in the plugin setting page allows you to see an overview of your downloads, view reports, and export download data in .xlsx or .csv format. Reports and graphs can come in fixed time periods of 7, 30, 90, and 180 days, or you can set a custom time period for exporting.
+
+** 1.1.1 - 9th November 2018 **
+New Pro Option/Feature: Advanced product restrictions. A new settings page to enter products, categories, or tags that are either included or excluded from free downloads. Product restrictions here are not compatible with the General Settings page include/exclude feature, but the category and tag restrictions are.
+New Feature: Custom templates. You can now override the download templates in your theme. Create a new folder inside your theme directory called "somdn-templates", and follow the same template folder/file structure as found in the plugin's "Templates" folders.
+New Option: Single file products can now show the filename instead of download text.
+New Option: Individual products can be excluded from the email capture form. Tick box option shows in the Free Downloads box on the product page, when email capture is enabled.
+New Feature: Better support for WooCommerce PDF Watermark including custom watermark settings for free downloads. Found under the renamed "PDF Settings" page.
+Change: Email Capture form no longer resets information entered by the customer when submitted. Only on a page refresh is this information cleared.
+Change: A different method is used to track downloads made on the same day.
+WooCommerce change: The default "add_to_cart" WooCommerce shortcode will now output a free download button if the product is applicable.
+Fix: Owned product downloads no longer count towards free download counts and limits, and aren't reported in the Free Download Logs.
+Fix: Quick View feature should now support more product filter plugins.
+Fix: Grouped products no longer show checkbox options if any free downloads are included.
+Fix: Free download logs could not be viewed on some system setups.
+Fix: "That was not supposed to happen" error has been removed, and a new custom security check has been implemented to be more compatible with site cache plugins. New errors will display on the product page for any download errors.
+General cleanups and optimisations.
+
+** 1.1.0 - 16th September 2018 **
+New Option/Feature: Quick View product popup window from shop listing pages
+New Option/Feature: Products can now either be included or excluded for download
+General cleanups and optimisations
+
+** 1.0.99 - 6th September 2018 **
+Feature Change: Download limit options have been expanded to allow more customisations, including at WooCommerce Membership plan level. If you have limits enabled be sure to set them up again
+Bug Fix: Email capture form would not work when using the "Button + Checkboxes" multiple file option
+General cleanups and optimisations
+
+** 1.0.98 - 27th August 2018 **
+New Feature: Now supports discounts from Paid Member Subscriptions plugin by Cozmoslabs
+New Option/Feature: Paid products your customer already owns can now be downloaded free from the product page, if you enable this option, essentially preventing repeat purchasing. The display can also be customised
+Bug Fix: Grouped products now use the default template when none of the products are free
+Bug Fix: Checkbox download form "Select All" button now works properly, including fixed CSS classes
+Bug Fix: PHP error in variation product logic
+General cleanups and optimisations
+
+** 1.0.97 - 17th April 2018 **
+A user's current downloads and allowances can be viewed from their Membership Plan page
+Changed download action from on_init to wp_loaded for better compatibility
+Fixed bug where files were being temporarily created without downloading
+Removed the legacy Custom Functions file
+Activating the basic or pro edition will deactivate the other if present
+Changed the script for downloading from archive pages to improve support for some themes/plugins
+
+** 1.0.96 - 26th March 2018 **
+Fixed bug where sale items were being included regardless of plugin setting
+Fixed CSS for email capture window on responsive devices
+
+** 1.0.95 - 14th March 2018 **
+New options: Email Capture can now take telephone, company name, and website. Enabled in the Newsletter Options page
+
+** 1.0.94 - 2nd March 2018 **
+Fixed bug with Memberships discounts
+
+** 1.0.93 - 28th February 2018 **
+Fixed bug that caused some filters not to work correctly
+Multiple file checkbox form now behaves more logically
+
+** 1.0.92 - 27th February 2018 **
+Compatibility with WooCommerce PDF Watermark
+Compatibility with grouped products
+New Option: Disable all eCommerce functionality. Useful for sites that only have free downloads available
+
+** 1.0.91 - 10th February 2018 **
+New Newsletter Options: Double opt-in setting for MailChimp, confirmation and error emails now optional, JavaScript error messages can be customised
+New Tracking Option: JavaScript error messages for email address capture can be customised
+Added basic compatibility with WooCommerce version 2.6.14. If using that version of WooCommerce, use with caution
+
+** 1.0.9 - 9th February 2018 **
+New Feature: Email Capture can now subscribe your guest users to your MailChimp newsletter
+New Option/Feature: Show user download limits on their WooCommerce account page
+Switched to using WooCommerce function get_file_download_path for better plugin compatibility. Other plugins hook into that filter
+New Option: Hide the "read more" button on archive pages if the user could download the product if they were logged in or needed a membership
+Cleaned up some code
+Renamed plugin to Free Downloads WooCommerce Pro (removed hyphen)
+Fixed php error for compatibility with Memberships
+General housekeeping
+
+** 1.0.8 - 19th January 2018 **
+New Option: Display a message on a product page if the product is free, requires login to download for free, but the user is not logged in
+New Option: Set custom download limits for individual WooCommerce Membership plans (set on the Edit Membership Plan page)
+
+** 1.0.7 - 14th January 2018 **
+Fixed bug where multiple free variations would duplicate on the download page
+
+** 1.0.6 - 14th January 2018 **
+Backwards Compatible with WooCommerce Memberships 1.8
+Quantity input no longer shows for free downloads in <em>Woocommerce Products List</em>
+
+** 1.0.5 - 11th January 2018 **
+Changed action for account page display feature
+Now supports <em>Woocommerce Products List</em> by NitroWeb
+
+** 1.0.4 - 9th January 2018 **
+New option: Show free download history on the user's WooCommerce account page
+Extra styling options for the email capture message text editor
+
+** 1.0.3 - 7th January 2018 **
+Changed shortcode logic to improve support with some themes
+Cleaned up depreciated WooCommerce Membership functions
+Cleaned up php errors
+
+** 1.0.2 - 5th January 2018 **
+Fixed JavaScript error on some download actions
+
+** 1.0.1 - 3rd January 2018 **
+Customisations for the email capture form available
+Cleaned up some minor php errors
+
+** 1.0 - 2nd January 2018 **
+Pro version released. Mirrors basic edition 3.0 with premium features

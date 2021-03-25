@@ -1,0 +1,399 @@
+.som-settings-setting-section-wrapper input[type=number]::-webkit-inner-spin-button, 
+.som-settings-setting-section-wrapper input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.somdn_require_login_message_row,
+body.post-type-somdn_tracked .wp-heading-inline,
+body.post-type-somdn_tracked #postbox-container-1,
+body.post-type-somdn_tracked #post-body-content,
+body.post-type-somdn_tracked h2.hndle,
+body.post-type-somdn_tracked button.handlediv,
+body.post-type-somdn_tracked hr.wp-header-end,
+body.post-type-somdn_tracked .wp-heading-inline ~ .page-title-action,
+body.post-type-somdn_temp_download .wp-heading-inline,
+body.post-type-somdn_temp_download #postbox-container-1,
+body.post-type-somdn_temp_download #post-body-content,
+body.post-type-somdn_temp_download h2.hndle,
+body.post-type-somdn_temp_download button.handlediv,
+body.post-type-somdn_temp_download hr.wp-header-end,
+body.post-type-somdn_temp_download .wp-heading-inline ~ .page-title-action {
+	display: none!important;
+}
+body.post-type-somdn_tracked #poststuff,
+body.post-type-somdn_temp_download #poststuff {
+	padding-top: 30px;
+}
+body.post-type-somdn_tracked .postbox-container,
+body.post-type-somdn_tracked #post-body,
+body.post-type-somdn_temp_download .postbox-container,
+body.post-type-somdn_temp_download #post-body {
+	margin-right: 0!important;
+	width: auto!important;
+}
+.somdn-tracked-download-headings {
+	padding: 20px 5px;
+}
+.somdn-tracked-download-headings h2 {
+	padding: 0!important;
+	margin: 0!important;
+	font-size: 23px!important;
+	font-weight: 400!important;
+}
+.somdn-tracked-download-wrap,
+.somdn-tracked-download-wrap div {
+	box-sizing: border-box;
+}
+.somdn-tracked-download-wrap {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px 5px;
+}
+.somdn-tracked-download-product-wrap {
+	width: 300px;
+}
+.somdn-tracked-download-body {
+	position: relative;
+}
+.somdn-tracked-download-content-wrap {
+	display: table;
+	width: 100%;
+	padding: 10px 10px;
+	table-layout: fixed;
+	border-bottom: 1px solid #ddd;
+}
+.somdn-tracked-download-content-wrap .somdn-tracked-download-label,
+.somdn-tracked-download-content-wrap .somdn-tracked-download-content {
+	display: table-cell;
+	vertical-align: top;
+}
+@media (min-width: 768px) {
+	.somdn-tracked-download-headings {
+		padding: 40px 40px 10px 40px;
+	}
+	.somdn-tracked-download-wrap {
+		display: table;
+		padding: 40px;
+	}
+	.somdn-tracked-download-product-wrap,
+	.somdn-tracked-download-body {
+		display: table-cell;
+		vertical-align: top;
+	}
+}
+@media (max-width: 767px) {
+	.somdn-tracked-download-body {
+		padding-top: 30px;
+	}
+}
+.somdn-tracked-download-content-wrap .somdn-tracked-download-label {
+	width: 120px;
+	font-size: 15px;
+	font-weight: 600;
+}
+.somdn-tracked-download-content-wrap .somdn-tracked-download-label {
+	padding-right: 10px;
+}
+.somdn-tracked-download-content-wrap:first-child {
+	padding-top: 0;
+}
+.somdn-tracked-download-content ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.somdn-tracked-download-product-image {
+	text-align: center;
+	display: inline-block;
+}
+.somdn-tracked-download-product-image img {
+	width: 100%;
+	height: auto;
+	max-width: 200px;
+	display: inline-block;
+}
+.somdn-tracked-download-product-button {
+	padding-top: 20px;
+}
+.somdn-tracked-download-userid {
+	font-size: 14px;
+}
+tr.somdn_newsletter_manual_info th,
+tr.somdn_setting_no_th th { display: none; }
+tr.somdn_newsletter_manual_info td,
+tr.somdn_setting_no_th td { padding-left: 0; }
+tr.somdn_setting_no_bot td { padding-bottom: 0; }
+.somdn-tracked-input-filter {
+	float: left;
+	margin-right: 6px;
+	width: 200px;
+	max-width: 100%;
+}
+.somdn-membership-free-downloads-wrap p {
+	font-size: 14px;
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+.somdn-membership-free-downloads-wrap-remain p,
+.somdn-membership-free-downloads-wrap-current p {
+	font-size: 14px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.somdn-membership-free-downloads-limits-heading {
+	padding-bottom: 10px;
+}
+.somdn-membership-free-downloads-limits-heading h4 {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+.somdn-setting-left-col {
+	width: 180px;
+	max-width: 100%;
+	padding-right: 10px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.somdn-setting-group-wrap {
+	padding-bottom: 10px;
+}
+.somdn-setting-group-wrap span.description {
+	display: inline-block;
+	padding-left: 15px;
+	color: #666;
+}
+.somdn-setting-example-list li {
+	margin-bottom: 12px;
+}
+.somdn-woo-meta-span.pad-25 {
+	padding-bottom: 25px;
+}
+.somdn-number-input::-webkit-inner-spin-button, 
+.somdn-number-input::-webkit-outer-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+}
+
+input.somdn-number-input {
+	width: 80px!important;
+	float: none!important;
+}
+.som-settings-gen-settings-form-wrap p.size-15 {
+	font-size: 15px;
+}
+.somdn-select2-wrap .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+	margin-right: 5px;
+	font-size: 17px;
+}
+.somdn-select2-wrap .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+	display: block;
+	padding: 5px 8px;
+	padding-right: 10px;
+}
+.somdn-select2-wrap .select2-container .select2-search--inline {
+	padding: 5px 0;
+	font-size: 15px;
+}
+.somdn-select2-wrap .select2-container--default .select2-selection--multiple .select2-selection__choice {
+	padding: 5px;
+	font-size: 15px;
+}
+[class*="download_now_dashboard"] .select2-results {
+	font-size: 15px;
+}
+@media (min-width: 992px) {
+	input[type="radio"].somdn-stats-date-radio {
+		width: auto;
+		margin: 0 5px 0 0;
+	}
+	.somdn-stats-date-radio-label {
+		padding-right: 20px;
+		margin-right: 30px;
+	}
+	.somdn-mb-only { display: none; }
+}
+@media (max-width: 991px) {
+	.somdn-stats-date-radio-label {
+		margin-bottom: 30px;
+	}
+	input[type="radio"].somdn-stats-date-radio {
+		margin-bottom: 25px;
+	}
+}
+.somdn-stats-date-radio-label {
+	display: inline-block;
+	font-size: 14px;
+}
+.somdn-stats-date-custom-wrap {
+	display: none;
+	padding-top: 25px;
+}
+#somdn-stats-date-radio-1:checked ~ .somdn-stats-graph-wrapper #somdn-stats-7-wrap,
+#somdn-stats-date-radio-2:checked ~ .somdn-stats-graph-wrapper #somdn-stats-30-wrap,
+#somdn-stats-date-radio-3:checked ~ .somdn-stats-graph-wrapper #somdn-stats-90-wrap,
+#somdn-stats-date-radio-4:checked ~ .somdn-stats-graph-wrapper #somdn-stats-180-wrap,
+#somdn-stats-date-radio-5:checked ~ .somdn-stats-date-custom-wrap {
+	display: block;
+}
+.somdn-stats-graph-wrap {
+	display: none;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	margin: 30px 0;
+	overflow: hidden;
+	background: #fff;
+}
+/*.somdn-stats-graph-wrap div div div {
+	text-decoration: none;
+	border: 1px solid #ddd;
+}
+*/
+.somdn-stats-graph-wrapper {
+	/*width: 500px;
+	max-width: 100%;*/
+}
+.somdn-stats-date-export-wrap {
+	padding-top: 25px;
+}
+.somdn-stats-date-custom-wrap label {
+	width: 80px;
+	display: inline-block;
+}
+.somdn-stats-date-export-wrap button.button {
+	margin-right: 20px;
+	font-size: 16px;
+}
+.somdn-stats-graph-wrap svg > g > g:last-child { pointer-events: none }
+.somdn-stats-box-wrap {
+	text-decoration: none;
+	display: block;
+	max-width: 100%;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12);
+	margin-bottom: 40px;
+	border-radius: 2px;
+	overflow: hidden;
+	background: #fff;
+	padding: 15px;
+}
+.somdn-stats-graph-wrapper,
+.somdn-stats-graph-wrap {
+	max-width: 100%;
+	overflow: hidden;
+}
+.somdn-stats-box-wrap h3 {
+	padding-bottom: 8px;
+	margin-bottom: 15px;
+	border-bottom: 2px solid #333;
+}
+.somdn-stats-box-wrap h3 .description {
+	margin-left: 5px;
+}
+.somdn-settings-table-no-top.checkbox-error-setting-wrap {
+	display: none;
+}
+.som-setting-settings-input-label {
+	font-size: 15px;
+}
+/*
+[class*=somdn-setting-download-type-] {
+	display: none;
+}
+*/
+input.som-setting-settings-input-radio {
+	margin: 0 6px 0 0;
+}
+.somdn-setting-download-type-redirect,
+.somdn-setting-download-type-email {
+	max-height: 0;
+	transition: none;
+	overflow: hidden;
+}
+#somdn_download_type_type_1:checked ~ .somdn-setting-download-type-redirect,
+#somdn_download_type_type_2:checked ~ .somdn-setting-download-type-email {
+	max-height: 4000px;
+	transition: max-height 0.3s ease-in;
+}
+
+.som-settings-email-option-wrap {
+	background-color: #fafafa;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+.som-settings-email-option-heading {
+	position: relative;
+}
+input[type="checkbox"].som-setting-checkbox-hidden {
+	display: none!important;
+}
+.som-settings-email-option-heading-arrow {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.som-settings-email-option-heading-arrow .som-settings-arrow {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	line-height: 1;
+	font-family: dashicons;
+	text-decoration: inherit;
+	font-weight: 400;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+	transition: color .1s ease-in;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.som-settings-email-option-heading-arrow .som-settings-arrow:before {
+	content: "\f347";
+}
+input[type="checkbox"].som-setting-checkbox-hidden:checked ~ .som-settings-email-option-heading .som-settings-email-option-heading-arrow .som-settings-arrow:before {
+	content: "\f343";
+}
+.som-settings-email-option-heading-title span {
+	display: block;
+	padding-right: 30px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.som-settings-email-option-heading-label {
+	display: block;
+}
+.som-settings-email-option-content {
+	border-top: 1px solid #ccc;
+	margin-top: 15px;
+	padding: 15px 0;
+	display: none;
+}
+input[type="checkbox"].som-setting-checkbox-hidden:checked ~ .som-settings-email-option-content {
+	display: block;
+}
+.somdn-role-limit-warning-wrap {
+	margin-bottom: 35px;
+	border-style: dashed;
+	border-color: #666;
+	padding: 20px;
+	display: inline-block;
+}
+.somdn-role-limit-warning-wrap p {
+	font-size: 18px;
+	color: red;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.post-type-somdn_role_limit #posts-filter .search-box,
+.post-type-somdn_role_limit .tablenav.top,
+.post-type-somdn_role_limit .tablenav.bottom {
+	display: none;
+}
+.post-type-somdn_role_limit .wrap .subsubsub {
+	float: none;
+	display: block;
+	margin-bottom: 10px;
+}

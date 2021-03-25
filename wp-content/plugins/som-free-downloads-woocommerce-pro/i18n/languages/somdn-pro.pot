@@ -1,0 +1,1391 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-18 11:56+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: free-downloads-woocommerce-pro.php:276
+msgid "WordPress Plugin"
+msgstr ""
+
+#: free-downloads-woocommerce-pro.php:283
+msgid "Minimum PHP Version"
+msgstr ""
+
+#: free-downloads-woocommerce-pro.php:294
+msgid "Missing Requirements"
+msgstr ""
+
+#: free-downloads-woocommerce-pro.php:295
+msgctxt ""
+"This message is explaining that this plugin, called {plugin_name}, will not "
+"work without a list of requirements or dependencies."
+msgid "{plugin_name} will not work without the following requirements:"
+msgstr ""
+
+#: includes/somdn-download-page.php:82
+#: pro/includes/somdn-pro-variation-download-page.php:86
+#: woo-files/somdn-woo-quickview.php:124
+msgid "Only registered users can download this free product."
+msgstr ""
+
+#: includes/somdn-download-page.php:118 includes/somdn-shortcodes.php:90
+#: pro/includes/somdn-pro-functions.php:48
+#: pro/includes/somdn-pro-functions.php:2455
+#: pro/includes/somdn-pro-variation-download-page.php:135
+#: woo-files/somdn-woo-quickview.php:160
+msgid "Download Now"
+msgstr ""
+
+#: includes/somdn-download-page.php:126 includes/somdn-shortcodes.php:98
+#: pro/includes/somdn-pro-functions.php:2463
+#: pro/includes/somdn-pro-variation-download-page.php:143
+#: woo-files/somdn-woo-quickview.php:168
+msgid "Download All"
+msgstr ""
+
+#: includes/somdn-download-page.php:133 includes/somdn-shortcodes.php:103
+#: pro/includes/somdn-pro-functions.php:2468
+#: pro/includes/somdn-pro-variation-download-page.php:150
+#: woo-files/somdn-woo-quickview.php:175
+msgid "Download PDF"
+msgstr ""
+
+#: includes/somdn-download-page.php:145
+#: pro/includes/somdn-pro-compatibility.php:391
+#: pro/includes/somdn-pro-functions.php:2216
+#: pro/includes/somdn-pro-variation-download-page.php:162
+#: pro/templates/account/free-downloads.php:50
+msgid "Download"
+msgstr ""
+
+#: includes/somdn-functions.php:461
+msgid "Available Downloads"
+msgstr ""
+
+#: includes/somdn-functions.php:463
+msgid "Available Downloads:"
+msgstr ""
+
+#: includes/somdn-functions.php:478
+msgid "Please select at least 1 checkbox"
+msgstr ""
+
+#: includes/somdn-functions.php:635 includes/somdn-functions.php:660
+msgid "Error 1: Invalid download key. Please try again."
+msgstr ""
+
+#: includes/somdn-functions.php:669
+msgid "Error 2: Invalid download key. Please try again."
+msgstr ""
+
+#: includes/somdn-functions.php:676
+msgid "Your download key has expired. Please try again."
+msgstr ""
+
+#: includes/somdn-functions.php:831 includes/somdn-functions.php:860
+#, php-format
+msgid "(Downloads - %s)"
+msgstr ""
+
+#: includes/somdn-functions.php:878
+msgid ""
+"If you need further support please visit the support forum for this plugin "
+"over at"
+msgstr ""
+
+#: includes/somdn-meta.php:38
+msgid "Allow free download"
+msgstr ""
+
+#: includes/somdn-meta.php:41
+msgid "Disallow free download"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:21
+msgid "General Settings"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:30
+msgid "Files"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:76
+msgid "Download Counts"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:102
+msgid "Button classes"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:110
+msgid "Button CSS"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:118
+msgid "Link classes"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:126
+msgid "Link CSS"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:138
+msgid "Single File Settings"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:145
+#: includes/somdn-plugin-settings.php:186
+msgid "Display method"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:153
+#: includes/somdn-plugin-settings.php:194
+msgid "Button text"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:161
+msgid "Show filename"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:169
+msgid "Force ZIP"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:179
+msgid "Multiple File Settings"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:202
+msgid "File list text"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:210
+msgid "Checkbox error text"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:218
+msgid "Customise"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:236
+msgid "Owned Products Settings"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:243
+msgid "Include Purchased Products"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:256
+msgid "Button Text"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:264
+msgid "Badge Text"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:272
+msgid "Hide Badge"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:284
+msgid "PDF Viewer Settings"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:291
+msgid "Enable PDF Viewer"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:299
+msgid "Single file display"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:307
+msgid "Link/Button Text"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:319
+msgid "Debugging"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:326
+msgid "Debug Logging"
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:335
+msgid "Settings related to plugin debugging."
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:357
+msgid "Customise the behaviour for products already purchased."
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:375
+msgid "When enabled you will be able to customise this setting."
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:433
+msgid "Customise the global plugin settings."
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:693
+msgid "Customise how products with a single file are handled."
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:772
+msgid ""
+"Your server does not have ZipArchive installed, therefore zipping free "
+"downloads won't work."
+msgstr ""
+
+#: includes/somdn-plugin-settings.php:1354
+msgid "Settings"
+msgstr ""
+
+#: pro/addons/mailchimp/mailchimp-newsletter.php:150
+msgid "Mailchimp Site Subscription Error"
+msgstr ""
+
+#: pro/addons/mailchimp/mailchimp-newsletter.php:160
+#: pro/includes/somdn-pro-functions.php:1590
+msgid "Hello there"
+msgstr ""
+
+#: pro/addons/mailchimp/mailchimp-newsletter.php:161
+msgid ""
+"A free download user attempted to subscribe to your MailChimp newsletter "
+"list but had an error. See below."
+msgstr ""
+
+#: pro/addons/mailchimp/mailchimp-newsletter.php:175
+msgid ""
+"No response came back. Please check your API Key is correct in the plugin "
+"settings."
+msgstr ""
+
+#: pro/addons/mailchimp/mailchimp-newsletter.php:237
+msgid "Note: This error was not shown to the user."
+msgstr ""
+
+#: pro/includes/somdn-pro-compatibility-pdf-watermarker.php:74
+msgid ""
+"Unable to serve the file at this time. The file does not support "
+"watermarking."
+msgstr ""
+
+#: pro/includes/somdn-pro-compatibility.php:281
+#: pro/includes/somdn-pro-meta.php:494
+msgid "Free Download Details"
+msgstr ""
+
+#: pro/includes/somdn-pro-compatibility.php:346
+#, php-format
+msgctxt "Show the user current download count"
+msgid "Current %1s: <strong>%2s</strong>"
+msgstr ""
+
+#: pro/includes/somdn-pro-compatibility.php:349
+#, php-format
+msgid "Allowance: <strong>%s</strong>"
+msgstr ""
+
+#: pro/includes/somdn-pro-compatibility.php:357
+#, php-format
+msgid "Allowance: <strong>%1s</strong> per product per <strong>%2s</strong>."
+msgstr ""
+
+#: pro/includes/somdn-pro-compatibility.php:605
+msgid "Custom settings to handle watermarked PDF files."
+msgstr ""
+
+#: pro/includes/somdn-pro-compatibility.php:617
+msgid "WooCommerce PDF Watermark"
+msgstr ""
+
+#: pro/includes/somdn-pro-compatibility.php:624
+msgid "Watermark Text"
+msgstr ""
+
+#: pro/includes/somdn-pro-download-type.php:553
+#: pro/includes/somdn-pro-functions.php:1902
+msgid "Customer"
+msgstr ""
+
+#: pro/includes/somdn-pro-download-type.php:892
+msgid "Your download key has now expired, please try again."
+msgstr ""
+
+#: pro/includes/somdn-pro-download-type.php:898
+msgid "Your download key has already been used, please try again."
+msgstr ""
+
+#: pro/includes/somdn-pro-download-type.php:1178
+msgid "click here"
+msgstr ""
+
+#: pro/includes/somdn-pro-download-type.php:1200
+#, php-format
+msgid ""
+"Your download should start automatically in %1$s seconds. If it doesn't "
+"please %2$s. Do not refresh this page."
+msgstr ""
+
+#: pro/includes/somdn-pro-download-type.php:1249
+msgid ""
+"A link to download the file has been emailed to you, please check your inbox."
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:192
+msgid "Please enter your first name"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:197
+msgid "Please enter your last name"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:201
+msgid "Please enter your email address"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:205
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:210
+msgid "Please enter your telephone number"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:215
+msgid "Please enter your company name"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:220
+msgid "Please enter your website"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:224
+msgid "You must select the checkbox to download"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1254
+#, php-format
+msgid "You free download limit is %1$s downloads for %2$s products per %3$s."
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1267
+#, php-format
+msgid "Your free download limit is %1$s downloads per %2$s."
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1279
+#, php-format
+msgid "Your free download limit is %1$s products per %2$s."
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1317
+#: pro/includes/somdn-pro-user-limits.php:110
+#: pro/includes/somdn-pro-user-role-limits.php:390
+msgid "Day"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1321
+#: pro/includes/somdn-pro-user-limits.php:111
+#: pro/includes/somdn-pro-user-role-limits.php:391
+msgid "Week"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1325
+#: pro/includes/somdn-pro-user-limits.php:112
+#: pro/includes/somdn-pro-user-role-limits.php:392
+msgid "Month"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1329
+#: pro/includes/somdn-pro-user-limits.php:113
+#: pro/includes/somdn-pro-user-role-limits.php:393
+msgid "Year"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1580
+msgid "Free Download Newsletter Subscription"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1591
+msgid ""
+"A user has subscribed to your newsletter when downloading your free product"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1592
+#, php-format
+msgid "Email address: <strong>%s</strong>"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1742
+msgid "Dear {first_name},"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1744
+msgid "Please click the below link for your {product} free download."
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1748
+msgid "This download link will expire in {hours} hours."
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1752
+msgid "Your {site_name} free download for {product}"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1753
+#: pro/includes/somdn-pro-meta.php:60
+msgid "Free Download"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1761
+msgid "A new free download has been made on your site."
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1763
+msgid "Product: {product}"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1765
+msgid "Date & Time: {date}"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1767
+msgid "Username: {username}"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1769
+msgid "Download ID: {id}"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1771
+msgid "View download log: {link}"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1775
+msgid "{site_name} New Free Download: {product}"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:1776
+msgid "New Free Download"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:2208
+msgid ""
+"If you need further support please visit the premium support forum for this "
+"plugin over at"
+msgstr ""
+
+#: pro/includes/somdn-pro-functions.php:2215
+msgid "Product"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:50
+msgid "Tracked Free Downloads"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:51 pro/includes/somdn-pro-meta.php:99
+msgid "Tracked Download"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:52 pro/includes/somdn-pro-meta.php:53
+#: pro/includes/somdn-pro-meta.php:54 pro/includes/somdn-pro-meta.php:100
+msgid "Tracked Downloads"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:55
+#: pro/includes/somdn-pro-user-role-limits.php:66
+msgid "Parent Item:"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:56
+msgid "Downloads"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:57
+msgid "Add New Tracked Download"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:58
+#: pro/includes/somdn-pro-user-role-limits.php:69
+msgid "Add New"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:59
+msgid "New Tracked Download"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:61
+msgid "Update Tracked Download"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:62
+msgid "View Tracked Download"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:63
+msgid "Search Tracked Downloads"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:64
+#: pro/includes/somdn-pro-user-role-limits.php:75
+msgid "Not found"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:65
+#: pro/includes/somdn-pro-user-role-limits.php:76
+msgid "Not found in Trash"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:66
+#: pro/includes/somdn-pro-user-role-limits.php:77
+msgid "Featured Image"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:67
+#: pro/includes/somdn-pro-user-role-limits.php:78
+msgid "Set featured image"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:68
+#: pro/includes/somdn-pro-user-role-limits.php:79
+msgid "Remove featured image"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:69
+#: pro/includes/somdn-pro-user-role-limits.php:80
+msgid "Use as featured image"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:70
+msgid "Insert into Tracked Download"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:71
+msgid "Uploaded to this Tracked Download"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:72
+msgid "Tracked Downloads list"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:73
+msgid "Tracked Downloads list navigation"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:74
+msgid "Filter Tracked Downloads list"
+msgstr ""
+
+#: pro/includes/somdn-pro-meta.php:414
+msgid "Temp Download Details"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-download-type.php:77
+msgid "Download Delivery Settings"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-emails.php:66
+msgid "Email Settings"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-include-exclude.php:60
+msgid "Products"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-include-exclude.php:87
+msgid "Product Categories"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-include-exclude.php:114
+msgid "Product Tags"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-license.php:62
+msgid "License Key options"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-license.php:70
+msgid "License Key"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-license.php:74
+msgid "Enter your license key"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-license.php:80
+#: pro/includes/somdn-pro-settings-license.php:92
+msgid "Activate License"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-license.php:85
+msgid "Active"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-license.php:87
+msgid "Deactivate License"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-license.php:90
+msgid "Inactive"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-license.php:142
+#: pro/includes/somdn-pro-settings-license.php:189
+#: pro/includes/somdn-pro-settings-license.php:244
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-license.php:156
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-license.php:163
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-license.php:168
+msgid "Invalid license."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-license.php:174
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-license.php:179
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-license.php:184
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:52
+msgid "Notes on Priority"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:54
+msgid "Download limit priority is as follows:"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:56
+msgid "User Account"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:57
+msgid "Membership Plan"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:58
+#: pro/includes/somdn-pro-user-role-limits.php:356
+msgid "User Role"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:59
+msgid "Global Setting"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:66
+msgid ""
+"Any rule that excludes a specific user from any download limits will always "
+"take priority. For example: If the user has specific download limits tied to "
+"their profile, but they have a user role that has exluded download limits, "
+"then the user will have no download limits."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:88
+msgid "Download Limitations"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:95
+msgid "Enabled / Disabled"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:108
+msgid "Limitations"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:148
+msgid "Error Message"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:164
+msgid "Account Page"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:212
+msgid "Membership Limit Settings"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:219
+msgid "Exclude Memberships"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:272
+msgid "Displays a heading above the download limit section."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:340
+msgid "Limit the number of times a user can download free products.</p>"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:357
+msgid "Additional settings for download limitations of your site memberships."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:375
+msgid "Note: When enabled you will be able to customise the limitations."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:409
+msgid ""
+"Limiting by User ID only works if the \"Only show the button to logged in "
+"users\" general settings option is set."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:410
+msgid ""
+"Any limits selected will mean downloads will be tracked in the database."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:559
+#: pro/includes/somdn-pro-settings-tracking.php:332
+#, php-format
+msgid "Shows in the downloads section of the %s shortcode."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:561
+#: pro/includes/somdn-pro-settings-tracking.php:336
+msgid "Note: When enabled you will be able to customise the display."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-limits.php:583
+msgid ""
+"Note: When enabled you can select which memberships are exlcuded from "
+"limitations in the <a href=\"edit.php?post_type=wc_membership_plan"
+"\">Membership Plans</a> page."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:88
+msgid "General Newsletter Settings"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:98
+msgid "Display Type"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:115
+msgid "Text"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:131
+msgid "Fields"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:296
+msgid "Confirmations"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:321
+msgid "Manual Settings"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:344
+msgid "MailChimp Settings"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:351
+msgid "API Key"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:359
+msgid "List ID"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:367
+msgid "Double Opt-In"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:386
+msgid "General settings for subscribing users to your newsletter."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:393
+msgid "Your mailchimp account and list settings."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:412
+msgid ""
+"<strong>Checkbox with Text:</strong> Default. The user has to tick a box to "
+"subscribe and you can display some text."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:413
+msgid ""
+"<strong>Required Checkbox with Text:</strong> The user is required to tick a "
+"box to subscribe/download and you can display some text."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:414
+msgid ""
+"<strong>Text Only:</strong> Add a short line of text above the download "
+"button in the email capture window."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:415
+msgid ""
+"<strong>None:</strong> When the user clicks download they will be "
+"subscribed. You might want to change your email capture window text to let "
+"them know."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:417
+msgid ""
+"Essentially only \"Checkbox with Text\" allows the user the option to "
+"subscribe. The others are forced."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:503
+msgid "Once enabled you can customise the last name field settings."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:568
+msgid "Once enabled you can customise the telephone field settings."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:633
+msgid "Once enabled you can customise the company name field settings."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-newsletter.php:698
+msgid "Once enabled you can customise the website field settings."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-stats.php:174
+msgid "No free download data found."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:93
+#: pro/includes/somdn-pro-settings-tracking.php:100
+msgid "Track Free Downloads"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:108
+msgid "Capture Emails"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:224
+msgid "Download History"
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:316
+msgid "Enable free download tracking to show account download history."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:333
+msgid ""
+"Only includes products the user has already downloaded for free and is still "
+"eligible to download."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:381
+msgid "Displays a heading above the download list."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:483
+#: pro/includes/somdn-pro-settings-tracking.php:513
+msgid "Enable free download tracking to capture guest emails."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:499
+msgid ""
+"Once enabled you can also enable the option to show the email capture window "
+"for registered users, and customise the capture box."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:528
+msgid ""
+"Note: The email capture window will already populate the email address of "
+"registered users."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:564
+msgid ""
+"Note: If selected you can customise on the \"Newsletter Options\" setting "
+"page."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:570
+#, php-format
+msgid ""
+"You can customise this setting on the <a href=\"%s\">Newsletter Options</a> "
+"setting page."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:574
+msgid ""
+"Note: \"Manual\" is just if you're manually adding people to a newsletter "
+"without a 3rd party service."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:580
+msgid ""
+"If you just want to take extra information like first name etc without a "
+"newsletter, enable the \"Manual\" option.<br> Then you can customise the "
+"fields on the Newsletter Options setting page. Make sure you select \"None\" "
+"as the display type."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:588
+#, php-format
+msgid ""
+"If you just want to take extra information like first name etc without a "
+"newsletter, enable the \"Manual\" option.<br> Then you can customise the "
+"fields on the <a href=\"%s\">Newsletter Options</a> setting page. Make sure "
+"you select \"None\" as the display type."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:765
+msgid ""
+"Create a detailed record each time a free download is made, enable guest "
+"email capture, and enable free download history display on user accounts."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings-tracking.php:766
+msgid "This feature is forced on if download limitations are enabled."
+msgstr ""
+
+#: pro/includes/somdn-pro-settings.php:72
+msgid "Global Site Settings"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:74
+msgid "User Download Limits"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:76
+msgid "Set custom download limit rules for this specific user."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:81
+#: pro/includes/somdn-pro-user-role-limits.php:328
+#, php-format
+msgid ""
+"See <a href=\"%s\" target=\"_blank\">Download Limit settings</a> for more "
+"info."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:89
+#: pro/includes/somdn-pro-user-role-limits.php:345
+msgid ""
+"Warning: Global download limit settings are not complete. No download limits "
+"will apply."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:96
+#: pro/includes/somdn-pro-user-role-limits.php:378
+msgid "No Download Limits"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:100
+msgid "Exclude this user from all download limitations."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:106
+#: pro/includes/somdn-pro-user-role-limits.php:387
+msgid "Download limit period"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:109
+#: pro/includes/somdn-pro-user-role-limits.php:358
+#: pro/includes/somdn-pro-user-role-limits.php:389
+msgid "Please choose..."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:115
+#: pro/includes/somdn-pro-user-role-limits.php:395
+#, php-format
+msgid "If blank the global setting %s will be used."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:120
+#: pro/includes/somdn-pro-user-role-limits.php:399
+msgid "Number of downloads"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:123
+#: pro/includes/somdn-pro-user-limits.php:132
+#: pro/includes/somdn-pro-user-role-limits.php:401
+#: pro/includes/somdn-pro-user-role-limits.php:408
+msgid "Leave blank for unlimited."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:124
+#: pro/includes/somdn-pro-user-role-limits.php:402
+msgid "Limit the number of times a download can be requested."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:129
+#: pro/includes/somdn-pro-user-role-limits.php:406
+msgid "Number of products"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:133
+#: pro/includes/somdn-pro-user-role-limits.php:410
+msgid "Limit the number of different products that can be downloaded."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:134
+#: pro/includes/somdn-pro-user-role-limits.php:411
+msgid ""
+"If a product limit is set, the number of downloads will apply per product."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:140
+msgid "Limit reached message"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:143
+msgid "Customise the limit reached message for this user."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:229
+msgid "User Limit Settings"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:236
+msgid "User Rules"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-limits.php:251
+#, php-format
+msgid ""
+"Set download limit rules for individual users by editing their user profile "
+"from the <a href=\"%s\">users</a> admin page."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:61
+#: pro/includes/somdn-pro-user-role-limits.php:63
+#: pro/includes/somdn-pro-user-role-limits.php:64
+#: pro/includes/somdn-pro-user-role-limits.php:65
+#: pro/includes/somdn-pro-user-role-limits.php:67
+#: pro/includes/somdn-pro-user-role-limits.php:111
+#: pro/includes/somdn-pro-user-role-limits.php:149
+#: pro/includes/somdn-pro-user-role-limits.php:150
+msgid "User Role Download Limits"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:62
+#: pro/includes/somdn-pro-user-role-limits.php:71
+#: pro/includes/somdn-pro-user-role-limits.php:110
+msgid "User Role Download Limit"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:68
+msgid "Add New User Role Download Limit"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:70
+msgid "New User Role Download Limit"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:72
+msgid "Update User Role Download Limit"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:73
+msgid "View User Role Download Limit"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:74
+msgid "Search User Role Download Limits"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:81
+msgid "Insert into User Role Download Limit"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:82
+msgid "Uploaded to this User Role Download Limit"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:83
+msgid "User Role Download Limits list"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:84
+msgid "User Role Download Limits list navigation"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:85
+msgid "Filter User Role Download Limits list"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:163
+#: pro/includes/somdn-pro-user-role-limits.php:165
+msgid "MISSING ROLE"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:184
+msgid "N/A"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:191
+#: pro/includes/somdn-pro-user-role-limits.php:197
+msgid "Unlimited"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:255
+msgid "Return to User Role Download Limits"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:262
+msgid "Return to Download Limit Settings"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:270
+msgid "Download Limit Rules"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:324
+msgid "Set custom download limit rules for a specific user role."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:366
+msgid "(in use)"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:369
+msgid "(current)"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:381
+msgid "Exclude this user role from all download limitations."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:420
+msgid "Customise the limit reached message for this role."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:475
+#, php-format
+msgid ""
+"The %1s user role is already being used by the %2s download limit rule, ID "
+"number %3s."
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:533
+msgid "User Role Limit Settings"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:540
+msgid "Role Rules"
+msgstr ""
+
+#: pro/includes/somdn-pro-user-role-limits.php:555
+#, php-format
+msgid ""
+"<a href=\"%s\">Click here</a> to set custom download limit rules for user "
+"roles."
+msgstr ""
+
+#: pro/templates/somdn-grouped.php:52
+msgid "Only registered users can download the free product part of this group."
+msgstr ""
+
+#: pro/templates/account/free-download-limits.php:40
+msgid "Free Download Limits"
+msgstr ""
+
+#: pro/templates/account/free-download-limits.php:68
+#, php-format
+msgid "Current %1s: %2s Downloads"
+msgstr ""
+
+#: pro/templates/account/free-download-limits.php:72
+#, php-format
+msgid "Current %1s: %2s Products"
+msgstr ""
+
+#: pro/templates/account/free-download-limits.php:76
+#, php-format
+msgid "Current %1s: %2s Downloads / %3s Products"
+msgstr ""
+
+#: pro/templates/account/free-download-limits.php:80
+#, php-format
+msgid "Download Allowance: %s"
+msgstr ""
+
+#: pro/templates/account/free-download-limits.php:83
+#, php-format
+msgid "Product Allowance: %s"
+msgstr ""
+
+#: pro/templates/account/free-downloads.php:37
+#: woo-files/somdn-woo-compatibility.php:528 woo-files/somdn-woo-meta.php:17
+msgid "Free Downloads"
+msgstr ""
+
+#: pro/templates/download-forms/capture-email-form.php:51
+msgid "Download FREE!"
+msgstr ""
+
+#: pro/templates/download-forms/capture-email-form.php:57
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: pro/templates/download-forms/capture-email-form.php:64
+msgid "Your first name..."
+msgstr ""
+
+#: pro/templates/download-forms/capture-email-form.php:70
+msgid "Email address..."
+msgstr ""
+
+#: pro/templates/download-forms/capture-email-form.php:77
+msgid "Your last name..."
+msgstr ""
+
+#: pro/templates/download-forms/capture-email-form.php:85
+msgid "Your telephone number..."
+msgstr ""
+
+#: pro/templates/download-forms/capture-email-form.php:93
+msgid "Your company name..."
+msgstr ""
+
+#: pro/templates/download-forms/capture-email-form.php:101
+msgid "Your website..."
+msgstr ""
+
+#: pro/templates/download-forms/capture-email-form.php:113
+#, php-format
+msgid "To download %s today just enter your email address!"
+msgstr ""
+
+#: pro/templates/download-forms/capture-email-form.php:125
+msgid "Submit & Download"
+msgstr ""
+
+#: pro/templates/download-forms/variation-multi-file-button-checkboxes.php:51
+#: templates/download-forms/multi-file-button-checkboxes.php:49
+msgid "Select All"
+msgstr ""
+
+#: pro/updater/SOMDN_SL_Plugin_Updater.php:228
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: pro/updater/SOMDN_SL_Plugin_Updater.php:236
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: pro/updater/SOMDN_SL_Plugin_Updater.php:474
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: pro/updater/SOMDN_SL_Plugin_Updater.php:474
+msgid "Error"
+msgstr ""
+
+#: woo-files/somdn-woo-compatibility.php:600
+msgid "WooCommerce Membership Settings"
+msgstr ""
+
+#: woo-files/somdn-woo-compatibility.php:607
+msgid "Restricted Products"
+msgstr ""
+
+#: woo-files/somdn-woo-compatibility.php:615
+msgid "Discount settings"
+msgstr ""
+
+#: woo-files/somdn-woo-compatibility.php:713
+msgid "Customise the experience for your WooCommerce Membership site."
+msgstr ""
+
+#: woo-files/somdn-woo-functions.php:332
+msgid "Download Again"
+msgstr ""
+
+#: woo-files/somdn-woo-functions.php:338
+msgid "(.zip)"
+msgstr ""
+
+#: woo-files/somdn-woo-functions.php:546
+msgid "OWNED!"
+msgstr ""
+
+#: woo-files/somdn-woo-quickview.php:29
+msgid "Quick View"
+msgstr ""
+
+#: woo-files/somdn-woo-quickview.php:320
+msgid "Read More"
+msgstr ""
+
+#: woo-files/somdn-woo-settings-support.php:803
+msgid "No error logs found."
+msgstr ""
+
+#: woo-files/somdn-woo-settings.php:77
+msgid "Shop Button Text"
+msgstr ""
+
+#: woo-files/somdn-woo-settings.php:145
+msgid ""
+"Enable the Quick View feature for shop listing pages. Quick View will apply "
+"to all products."
+msgstr ""
+
+#: woo-files/somdn-woo-settings.php:146
+msgid ""
+"Quick View allows users to preview a product without going to the product "
+"page, by clicking a \"Quick View\" button when hovering their mouse over a "
+"product in the shop."
+msgstr ""
+
+#: woo-files/somdn-woo-settings.php:147
+msgid ""
+"Note: This feature is currently in beta. Please report any issues you find."
+msgstr ""
+
+#: woo-files/somdn-woo-settings.php:157
+msgid "WooCommerce Quick View Settings"
+msgstr ""
+
+#: woo-files/somdn-woo-settings.php:164
+msgid "Enable Quick View"
+msgstr ""
+
+#: woo-files/somdn-woo-settings.php:176
+msgid "Button Settings"
+msgstr ""
+
+#: woo-files/somdn-woo-settings.php:219
+msgid "Note: When enabled you will be able to customise this feature."
+msgstr ""
