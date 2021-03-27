@@ -1,0 +1,38 @@
+= 1.1.2 =
+* Style issue fixed.
+
+= 1.1.1 =
+* Style issue fixed.
+
+= 1.1.0 =
+* Minor functional issues fixed.
+
+= 1.0.9 =
+* Style issue fixed.
+
+= 1.0.8 =
+* Style issue fixed.
+
+= 1.0.7 =
+* Style issue fixed.
+
+= 1.0.6 =
+* Style issue fixed.
+
+= 1.0.5 =
+* Style issue fixed.
+
+= 1.0.4 =
+* Minor functional issues fixed.
+
+= 1.0.3 =
+* Minor functional issues fixed.
+
+= 1.0.2 =
+* Style Updated.
+
+= 1.0.1 =
+* Theme Updated.
+
+= 1.0.0 =
+* Initial release.
